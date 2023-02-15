@@ -1,0 +1,31 @@
+.userPanel_wrapper {
+  display: flex;
+  width: 300px;
+  height: 139px;
+  background: rgba(27, 29, 49, 0.5);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 22px;
+  cursor: pointer;
+margin-bottom: 10px;
+
+}
+
+.userPanel_info {
+ font-size: 20px;
+ line-height: none;
+ 
+}
+.usePanel_name {
+  margin: 0;
+}
+.userPanel_email {
+  margin: 0;
+}
+.userPanel_icon {
+  cursor: pointer;
+  width: 48px;
+  height: 48px;
+}

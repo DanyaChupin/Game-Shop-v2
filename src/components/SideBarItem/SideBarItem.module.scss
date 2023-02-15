@@ -1,0 +1,31 @@
+.sideBarItem_wrapper {
+  width: 339px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor:pointer;
+  text-decoration: none;
+  color: inherit;
+  
+}
+
+.sideBarItem_icon {
+  margin-left: 22px;
+  width: 30px;
+  height: 30px;
+}
+
+.sideBarItem_title {
+  margin-left: 58px;
+  transition: padding-left .3s ease;
+}
+
+@media only screen and (min-width: 1023px) {
+  .sideBarItem_wrapper {
+  &:hover .sideBarItem_title  {
+    padding-left: 5px;
+  }
+  }
+}
+

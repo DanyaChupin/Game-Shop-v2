@@ -1,0 +1,16 @@
+span {
+    display: flex;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.burger_menu {
+  width: 26px;
+  height: 20px;
+  
+}
+@media only screen and (min-width: 1023px) {
+  .burger_menu{
+    display: none;
+  }
+}

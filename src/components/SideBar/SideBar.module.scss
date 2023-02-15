@@ -1,0 +1,26 @@
+.sideBar_wrapper {
+    background-color: #11101d;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+   transition: left 0.3s ease;
+   min-height: 100%;
+   width: 355px;
+}
+
+
+@media only screen and (max-width: 1023px) {
+    .sideBar_wrapper {
+       position: absolute;
+       left: 0;
+
+       transform: translateX(-101%);
+       
+        transition: transform 0.3s ease-in-out;
+        
+    }
+    .sideBar_wrapper_active {
+      
+        transform: translateX(-5px);
+    }
+  }

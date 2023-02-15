@@ -1,0 +1,39 @@
+.header {
+  
+  height: 90px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_left {
+    display: flex;
+  align-items: center;
+  width: 339px;
+  justify-content: space-between;
+  }
+.header_logo {
+  width: 40px;
+  height: 27px;
+  margin-right: 7px;
+}
+.header_title {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.header_user {
+  margin-left: 10px;
+    color: #fff;
+}
+
+
+
+@media only screen and (max-width: 480px) {
+  .header_title {
+    
+    font-size: 20px;
+}
+
+}
